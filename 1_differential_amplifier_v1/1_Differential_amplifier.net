@@ -1,0 +1,45 @@
+* D:\vlsi advanced\1_Differential_amplifier.asc
+M1 vd1 vg1 vs1 0 NMOS l=1u w=60u
+M2 vd2 vg2 vs1 0 NMOS l=1u w=60u
+M3 vs1 vg3 0 0 NMOS l=1u w=10u
+V1 vg1 0 SINE(0.6 1m 1k 0 0 180)
+V2 vg3 0 0.5
+V3 vg2 0 SINE(0.6 1m 1k)
+V4 N001 0 1.2
+R1 N001 vd1 68k
+R2 N001 vd2 68k
+M4 N003 N005 N007 0 NMOS l=1u w=60u
+M5 N004 N006 N007 0 NMOS l=1u w=60u
+M6 N007 N008 0 0 NMOS l=1u w=10u
+V5 N005 0 SINE(0.6 1m 1k 0 0 180) AC 0.6 0
+V6 N008 0 0.5
+V7 N006 0 SINE(0.6 1m 1k) AC 0.6 180
+V8 N002 0 1.2
+R3 N002 N003 68k
+R4 N002 N004 68k
+C1 0 N003 1µ
+C2 0 N004 1µ
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\_\Documents\LTspiceXVII\lib\cmp\standard.mos
+* Differential NMOS Amplifier with current sink
+.MODEL NMOS NMOS(KP=200u,VTO=0.4)
+* .tran 0 10m 0 10
+* AC Analysis
+.meas vgs1 PARAM v(vg1)-v(vs1)
+.meas vds1 PARAM v(vd1)-v(vs1)
+.meas vgs_greaterThan_VTH_1 PARAM vgs1-0.4
+.meas vds_greaterThan_Vgs-Vth_1 PARAM vds1-(vgs1-0.4)
+.meas vgs2 PARAM v(vg2)-v(vs1)
+.meas vds2 PARAM v(vd2)-v(vs1)
+.meas vgs_greaterThan_VTH_2 PARAM vgs2-0.4
+.meas vds_greaterThan_Vgs-Vth_2 PARAM vds2-(vgs2-0.4)
+.meas vgs3 PARAM v(vg3)
+.meas vds3 PARAM v(vs1)
+.meas vgs_greaterThan_VTH_3 PARAM vgs3-0.4
+.meas vds_greaterThan_Vgs-Vth_3 PARAM vds3-(vgs3-0.4)
+* .ac dec 10 1 10G
+.op
+* .temp -40 27 125
+.backanno
+.end

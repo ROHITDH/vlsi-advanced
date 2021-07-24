@@ -1,0 +1,297 @@
+Circuit: * D:\vlsi advanced\6_differential_amplifier_v4_with_cascode_current_mirror_external_supply\6_differential_amplifier_v4_with_cascode_current_mirror_external_supply.asc
+
+Instance "m12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m11": Length shorter than recommended for a level 1 MOSFET.
+Instance "m10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m9": Length shorter than recommended for a level 1 MOSFET.
+Instance "m8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step temp=-40°C
+.step temp=27°C
+.step temp=125°C
+
+
+Measurement: vgs1
+  step	v(vg1)-v(vs1)
+     1	0.467455
+     2	0.402874
+     3	0.304955
+
+Measurement: vds1
+  step	v(vd1)-v(vs1)
+     1	0.630325
+     2	0.562968
+     3	0.464772
+
+Measurement: vgs_greaterthan_vth_1
+  step	vgs1-0.4
+     1	0.0674549
+     2	0.00287393
+     3	-0.0950449
+
+Measurement: vds_greaterthan_vgs-vth_1
+  step	vds1-(vgs1-0.4)
+     1	0.56287
+     2	0.560094
+     3	0.559817
+
+Measurement: vgs2
+  step	v(vg2)-v(vs1)
+     1	0.467455
+     2	0.402874
+     3	0.304955
+
+Measurement: vds2
+  step	v(vd2)-v(vs1)
+     1	0.630258
+     2	0.562931
+     3	0.464753
+
+Measurement: vgs_greaterthan_vth_2
+  step	vgs2-0.4
+     1	0.0674549
+     2	0.00287393
+     3	-0.0950449
+
+Measurement: vds_greaterthan_vgs-vth_2
+  step	vds2-(vgs2-0.4)
+     1	0.562803
+     2	0.560057
+     3	0.559798
+
+Measurement: vgs3
+  step	v(vg3)-v(vd7)
+     1	0.545711
+     2	0.497719
+     3	0.421914
+
+Measurement: vds3
+  step	v(vs1)-v(vd7)
+     1	0.218256
+     2	0.234845
+     3	0.256958
+
+Measurement: vgs_greaterthan_vth_3
+  step	vgs3-0.4
+     1	0.145711
+     2	0.0977188
+     3	0.0219136
+
+Measurement: vds_greaterthan_vgs-vth_3
+  step	vds3-(vgs3-0.4)
+     1	0.0725451
+     2	0.137126
+     3	0.235045
+
+Measurement: vgs6
+  step	v(vg3)-v(vs6)
+     1	0.544154
+     2	0.496428
+     3	0.422302
+
+Measurement: vds6
+  step	v(vg7)-v(vs6)
+     1	0.477591
+     2	0.377245
+     3	0.222833
+
+Measurement: vgs_greaterthan_vth_6
+  step	vgs6-0.4
+     1	0.144154
+     2	0.0964284
+     3	0.0223022
+
+Measurement: vds_greaterthan_vgs-vth_6
+  step	vds6-(vgs6-0.4)
+     1	0.333437
+     2	0.280817
+     3	0.200531
+
+Measurement: vgs7
+  step	v(vg7)
+     1	0.533437
+     2	0.480817
+     3	0.400531
+
+Measurement: vds7
+  step	v(vd7)
+     1	0.0542893
+     2	0.102281
+     3	0.178086
+
+Measurement: vgs_greaterthan_vth_7
+  step	vgs7-0.4
+     1	0.133437
+     2	0.0808169
+     3	0.000530845
+
+Measurement: vds_greaterthan_vgs-vth_7
+  step	vds7-(vgs7-0.4)
+     1	-0.0791475
+     2	0.0214643
+     3	0.177556
+
+Measurement: vgs8
+  step	v(vg7)
+     1	0.533437
+     2	0.480817
+     3	0.400531
+
+Measurement: vds8
+  step	v(vs6)
+     1	0.055846
+     2	0.103572
+     3	0.177698
+
+Measurement: vgs_greaterthan_vth_8
+  step	vgs8-0.4
+     1	0.133437
+     2	0.0808169
+     3	0.000530845
+
+Measurement: vds_greaterthan_vgs-vth_8
+  step	vds8-(vgs8-0.4)
+     1	-0.0775909
+     2	0.0227547
+     3	0.177167
+
+Measurement: vgs11
+  step	v(vg11)-v(vd12)
+     1	0.510287
+     2	0.454347
+     3	0.368056
+
+Measurement: vds11
+  step	v(vd11)-v(vd12)
+     1	0.589069
+     2	0.643783
+     3	0.727572
+
+Measurement: vgs_greaterthan_vth_11
+  step	vgs11-0.4
+     1	0.110287
+     2	0.0543471
+     3	-0.0319437
+
+Measurement: vds_greaterthan_vgs-vth_11
+  step	vds11-(vgs11-0.4)
+     1	0.478783
+     2	0.589436
+     3	0.759515
+
+Measurement: vgs9
+  step	v(vg11)-v(vg12)
+     1	0.510606
+     2	0.455273
+     3	0.370225
+
+Measurement: vds9
+  step	v(vg11)-v(vg12)
+     1	0.510606
+     2	0.455273
+     3	0.370225
+
+Measurement: vgs_greaterthan_vth_9
+  step	vgs9-0.4
+     1	0.110606
+     2	0.0552734
+     3	-0.0297746
+
+Measurement: vds_greaterthan_vgs-vth_9
+  step	vds9-(vgs9-0.4)
+     1	0.4
+     2	0.4
+     3	0.4
+
+Measurement: vgs12
+  step	v(vg12)
+     1	0.510606
+     2	0.455273
+     3	0.370219
+
+Measurement: vds12
+  step	v(vd12)
+     1	0.510925
+     2	0.4562
+     3	0.372388
+
+Measurement: vgs_greaterthan_vth_12
+  step	vgs12-0.4
+     1	0.110606
+     2	0.0552734
+     3	-0.0297811
+
+Measurement: vds_greaterthan_vgs-vth_12
+  step	vds12-(vgs12-0.4)
+     1	0.400319
+     2	0.400926
+     3	0.402169
+
+Measurement: vgs10
+  step	v(vg12)
+     1	0.510606
+     2	0.455273
+     3	0.370219
+
+Measurement: vds10
+  step	v(vg12)
+     1	0.510606
+     2	0.455273
+     3	0.370219
+
+Measurement: vgs_greaterthan_vth_10
+  step	vgs10-0.4
+     1	0.110606
+     2	0.0552734
+     3	-0.0297811
+
+Measurement: vds_greaterthan_vgs-vth_10
+  step	vds10-(vgs10-0.4)
+     1	0.4
+     2	0.4
+     3	0.4
+
+
+Date: Fri Jul 23 15:45:16 2021
+Total elapsed time: 0.384 seconds.
+
+tnom = 27
+temp = 125
+method = modified trap
+totiter = 2367
+traniter = 830
+tranpoints = 416
+accept = 258
+rejected = 158
+matrix size = 24
+fillins = 0
+solver = Normal
+Matrix Compiler1: 1008 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.90 KB object code size  0.3/0.3/[0.2]
+

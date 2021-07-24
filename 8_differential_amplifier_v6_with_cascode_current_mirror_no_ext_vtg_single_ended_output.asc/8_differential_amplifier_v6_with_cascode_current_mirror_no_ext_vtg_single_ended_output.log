@@ -1,0 +1,59 @@
+Circuit: * D:\vlsi advanced\8_differential_amplifier_v6_with_cascode_current_mirror_no_ext_vtg_single_ended_output.asc\8_differential_amplifier_v6_with_cascode_current_mirror_no_ext_vtg_single_ended_output.asc
+
+Instance "m11": Length shorter than recommended for a level 1 MOSFET.
+Instance "m10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m9": Length shorter than recommended for a level 1 MOSFET.
+Instance "m12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+vgs1: v(vg1)-v(vs1)=0.415436
+vds1: v(vd1)-v(vs1)=0.773856
+vgs_greaterthan_vth_1: vgs1-0.4=0.0154364
+vds_greaterthan_vgs-vth_1: vds1-(vgs1-0.4)=0.758419
+vgs2: v(vg2)-v(vs1)=0.415436
+vds2: v(vd2)-v(vs1)=0.77388
+vgs_greaterthan_vth_2: vgs2-0.4=0.0154364
+vds_greaterthan_vgs-vth_2: vds2-(vgs2-0.4)=0.758444
+vgs3: v(vg3)-v(vd7)=0.431158
+vds3: v(vs1)-v(vd7)=0.3145
+vgs_greaterthan_vth_3: vgs3-0.4=0.0311577
+vds_greaterthan_vgs-vth_3: vds3-(vgs3-0.4)=0.283343
+vgs6: v(vg6)-v(vg7)=1.00208
+vds6: v(vg3)-v(vd7)=0.431158
+vgs_greaterthan_vth_6: vgs6-0.4=0.602079
+vds_greaterthan_vgs-vth_6: vds6-(vgs6-0.4)=-0.170921
+vgs7: v(vg7)=0.439142
+vds7: v(vd7)=0.0100633
+vgs_greaterthan_vth_7: vgs7-0.4=0.0391421
+vds_greaterthan_vgs-vth_7: vds7-(vgs7-0.4)=-0.0290788
+vgs8: v(vg7)=0.439142
+vds8: v(vg7)=0.439142
+vgs_greaterthan_vth_8: vgs8-0.4=0.0391421
+vds_greaterthan_vgs-vth_8: vds8-(vgs8-0.4)=0.4
+
+
+Date: Fri Jul 23 20:46:22 2021
+Total elapsed time: 0.169 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2014
+traniter = 1975
+tranpoints = 501
+accept = 338
+rejected = 163
+matrix size = 18
+fillins = 4
+solver = Normal
+Matrix Compiler1: 1.24 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: off  [0.2]/0.2/0.2
+
