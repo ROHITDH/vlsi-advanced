@@ -1,0 +1,106 @@
+Circuit: * C:\Users\_\Downloads\vlsi doubts\adc\adc.asc
+
+Limiting rise time of source v10 to 0.002
+Limiting fall time of source v10 to 0.002
+Limiting rise time of source v4 to 0.0005
+Limiting fall time of source v4 to 0.0005
+Instance "m:x4:18": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:17": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:16": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:15": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:14": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:13": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:11": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:9": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:18": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:17": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:16": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:15": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:14": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:13": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:11": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:9": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:18": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:17": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:16": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:15": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:14": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:13": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:11": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:9": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:18": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:17": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:16": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:15": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:14": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:13": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:11": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:9": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.48432
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.48231
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Heightened Def Con from 4.74947e-005 ++++++++++++++++++++++++++++++++to 4.74987e-005
+Heightened Def Con from 4.74987e-005 ++++++++++++++++++++++++++++++++++++++++++++++++++Fatal Error: Analysis:  Time step too small; time = 4.74987e-005, timestep = 1.25e-019: trouble with nmos-instance m:x1:2
+
